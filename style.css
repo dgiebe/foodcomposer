@@ -27,19 +27,19 @@ ul {
 	list-style: none;
 	margin-top:100px;
 }
-#pizza p {
+.pizza p {
 	font-weight: bold;
 	text-align: center;
 }
-#pizza div {
+.pizza div {
 	padding: 50px;
 }
-#pizza {
+.pizza {
 	-moz-box-sizing: border-box;
-	background: url("img/main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+	background: url("img/main.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
 	height: 568px;
 	position: absolute;
-	width: 824px;
+	width: 568px;
 	z-index: 0;
 	-webkit-animation-name: rotate;
 	-webkit-animation-duration: 100s;
@@ -50,10 +50,38 @@ ul {
 	-moz-animation-iteration-count: infinite;
 	-moz-animation-timing-function: linear;
 	left: 50%;
-	margin-left: -412px;
+	margin-left: -284px;
 	top: 50%;
 	margin-top: -284px;
 }
+
+.pizza38 {
+	height:768px;
+	width:768px;
+	margin-left:-384px;
+	margin-top:-384px;
+}
+
+.swippiz {
+	position:absolute;
+	width:568px;
+	height:568px;
+	border-radius:284px;
+	left:50%;
+	top:50%;
+	margin-left:-284px;
+	margin-top:-284px;
+	z-index:1000;
+}
+
+.swippiz38 {
+	height:768px;
+	width:768px;
+	margin-left:-384px;
+	margin-top:-384px;
+}
+	
+
 span.toppings {
 	-moz-box-sizing: border-box;
 	height: 568px;
@@ -65,13 +93,17 @@ span.toppings {
 	top: 50%;
 	margin-top: -284px;
 }
-#inc-rotate {
+.inc-rotate {
 	height: 100px;
 	position: absolute;
 	width: 100px;
 	z-index: 2;
 }
-#inc {
+
+
+
+
+.inc {
 	-moz-box-sizing: border-box;
 	background: url("img/inc.png") no-repeat scroll center center / 768px 768px rgba(0, 0, 0, 0);
 	height: 768px;
