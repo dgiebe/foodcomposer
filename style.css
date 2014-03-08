@@ -1,0 +1,189 @@
+* {
+	font-family: Varela Round;
+}
+body {
+	background: #070707;
+	overflow: hidden;
+	color: #FFF;
+}
+h2 {
+	font-size: 28px;
+	margin:20px;
+}
+h2.top {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+h2.bottom {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+ul {
+	list-style: none;
+	margin-top:100px;
+}
+#pizza p {
+	font-weight: bold;
+	text-align: center;
+}
+#pizza div {
+	padding: 50px;
+}
+#pizza {
+	-moz-box-sizing: border-box;
+	background: url("img/main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+	height: 568px;
+	position: absolute;
+	width: 824px;
+	z-index: 0;
+	-webkit-animation-name: rotate;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotate;
+	-moz-animation-duration: 100s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	left: 50%;
+	margin-left: -412px;
+	top: 50%;
+	margin-top: -284px;
+}
+span.toppings {
+	-moz-box-sizing: border-box;
+	height: 568px;
+	position: absolute;
+	width: 824px;
+	z-index: 3;
+	left: 50%;
+	margin-left: -412px;
+	top: 50%;
+	margin-top: -284px;
+}
+#inc-rotate {
+	height: 100px;
+	position: absolute;
+	width: 100px;
+	z-index: 2;
+}
+#inc {
+	-moz-box-sizing: border-box;
+	background: url("img/inc.png") no-repeat scroll center center / 768px 768px rgba(0, 0, 0, 0);
+	height: 768px;
+	position: absolute;
+	width: 1024px;
+	z-index: 1;
+	-webkit-animation-name: rotateinc;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotate;
+	-moz-animation-duration: 60s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	left: 50%;
+	margin: 10px auto 0 -512px;
+	top: 50%;
+	margin-top: -384px;
+}
+#salami {
+	background-image: url(img/salami.png);
+	width: 109px;
+	height: 108px;
+	z-index: 4;
+}
+#tomato {
+	background-image: url(img/tomato.png);
+	width: 109px;
+	height: 108px;
+	z-index: 4;
+}
+#chmp {
+	background-image: url(img/chmp.png);
+	width: 109px;
+	height: 108px;
+	z-index: 4;
+}
+#olv {
+	background-image: url(img/olv.png);
+	width: 109px;
+	height: 108px;
+	z-index: 4;
+}
+#ppr {
+	background-image: url(img/ppr.png);
+	width: 109px;
+	height: 108px;
+	z-index: 4;
+}
+span.inc {
+	-moz-box-sizing: border-box;
+	height: 568px;
+	position: absolute;
+	width: 824px;
+	z-index: 3;
+	left: 50%;
+	margin-left: -412px;
+	top: 50%;
+	margin-top: -284px;
+	-webkit-animation-name: rotate;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotate;
+	-moz-animation-duration: 100s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+}
+span.salami {
+	background: url("img/salami_main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+}
+span.tomato {
+	background: url("img/tomato_main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+}
+span.chmp {
+	background: url("img/chmp_main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+}
+span.olv {
+	background: url("img/olv_main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+}
+span.ppr {
+	background: url("img/ppr_main.png") no-repeat scroll center center / 568px 568px rgba(0, 0, 0, 0);
+}
+ @-webkit-keyframes rotate {
+ from {
+-webkit-transform:rotate(0deg);
+}
+ to {
+-webkit-transform:rotate(360deg);
+}
+}
+ @-moz-keyframes rotate {
+ from {
+-moz-transform:rotate(0deg);
+}
+ to {
+-moz-transform:rotate(360deg);
+}
+}
+ @-webkit-keyframes rotateinc {
+ from {
+-webkit-transform:rotate(360deg);
+}
+ to {
+-webkit-transform:rotate(0deg);
+}
+}
+ @-moz-keyframes rotateinc {
+ from {
+-moz-transform:rotate(360deg);
+}
+ to {
+-moz-transform:rotate(0deg);
+}
+}
